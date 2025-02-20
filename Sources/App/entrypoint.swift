@@ -3,6 +3,7 @@ import Logging
 import NIOCore
 import NIOPosix
 
+@available(iOS 13.0.0, *)
 @main
 enum Entrypoint {
     static func main() async throws {
